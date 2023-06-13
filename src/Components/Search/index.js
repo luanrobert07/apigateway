@@ -27,16 +27,21 @@ const GatewaySearch = () => {
 
   return (
     <div className='teste'>
+      <div>
       <div className='search'>
-        <div>
-          <input
-            type="text"
-            placeholder="Search by ID"
-            value={searchId}
-            onChange={e => setSearchId(e.target.value)}
-          />
-          <button onClick={handleSearch}>Search</button>
-
+        <div className='Container_search'>
+          <div className='input-container'>
+            <input
+              type="text"
+              placeholder="Search by ID"
+              value={searchId}
+              onChange={e => setSearchId(e.target.value)}
+            />
+          </div>
+          <div className='button-container'>
+            <button className='button' onClick={handleSearch}>Search</button>
+          </div>
+        </div>
           {notFound ? (
             <h2 className='text'>Nenhum ID correspondente</h2>
           ) : gateway && (
