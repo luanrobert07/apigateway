@@ -1,7 +1,16 @@
 .footer{
     background-color: black;
     height: 200px;
+    bottom: 0;
 }   
+
+.footer p{
+    color:aliceblue;
+    text-align:center;
+    bottom: 0;
+    margin-left: 20px;
+    position: fixed;
+}
 
 
 
