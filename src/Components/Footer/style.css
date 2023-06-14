@@ -1,0 +1,15 @@
+.footer{
+    background-color: black;
+    height: 120px;
+    display: block;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}   
+
+.footer p{
+    color:aliceblue;
+    text-align:center;
+    padding-top: 70px;
+}
+
