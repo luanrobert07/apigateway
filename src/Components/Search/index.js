@@ -31,7 +31,7 @@ const GatewaySearch = () => {
       <div className='search'>
         <div className='Container_search'>
           <div className='input-container'>
-            <input
+            <input className='input-form'
               type="text"
               placeholder="Search by ID"
               value={searchId}

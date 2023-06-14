@@ -1,19 +1,15 @@
 .footer{
     background-color: black;
     height: 120px;
+    display: block;
     bottom: 0;
-    align-items: flex-end;
-    display: flex;
+    position: fixed;
+    width: 100%;
 }   
 
 .footer p{
     color:aliceblue;
-}
-
-.container{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+    text-align:center;
+    padding-top: 70px;
 }
 
